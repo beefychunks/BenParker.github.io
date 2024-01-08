@@ -1,0 +1,108 @@
+body {
+    color: #3a104e;
+    background-color: blanchedalmond;
+    background-image: linear-gradient(#cf843e, #ffffff);
+}
+
+main {
+    display: block;
+    overflow: auto;
+}
+
+header {
+    color: #ffffff;
+    background-color: #3a104e;
+    text-align: center;
+    font-size: 1.75em;
+    padding: 1px;
+    letter-spacing: 5px;
+}
+
+footer {
+    text-align: center;
+    font-size: 75%;
+    font-style: italic;
+}
+
+nav {
+    font-size: 120%;
+    font-weight: bold;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: color 2s linear;
+}
+
+nav a:hover{
+    color: black;
+}
+
+
+ul {
+    list-style-image: url(imgUsed/cookieBullet.png);
+}
+
+section {
+    float: left;
+    width: 33%;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+table {
+    background-color: #ffffff;
+    border: 2px solid black;
+    width: 750px;
+}
+
+th {
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-flow: column nowrap;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-bottom: 19%;
+}
+
+form h2 {
+    text-align: center;
+}
+
+form p {
+    text-align: center;
+}
+
+.text {
+    width: 375px;
+    text-align: left;
+}
+
+#baked {
+    float: right;
+    padding-right: 1.5em;
+}
+
+#push {
+    margin-left: 25%;
+}
+
+#offer {
+    margin-top: 250px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
